@@ -7,13 +7,18 @@
 
 Sample numbers array, i.e. INPUT:
   [7, -4, 2, 0, -10, 3, 11]
-
 Expected OUTPUT for this sample:
   [7, 2, 0, 3, 11]
 
 */
 
+const numbers = [7, -4, 2, 0, -10, 3, 11]
+
 function getPositiveNumbers(numbers) {
+    const result = numbers.filter(function(num) {
+    return num >= 0
+  })
+    return result;
 }
 
 // If you need, you can always visualize the result with a console.log.

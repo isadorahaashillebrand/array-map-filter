@@ -1,10 +1,10 @@
 {
   "name": "quete-map-filter",
   "version": "1.0.0",
-  "description": "",
+  "description": "[FRENCH VERSION (a bit less detailed)](README_FR.md)",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "scripts": {
     "test": "mocha"
@@ -14,5 +14,14 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^7.1.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isadorahaashillebrand/array-map-filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isadorahaashillebrand/array-map-filter/issues"
+  },
+  "homepage": "https://github.com/isadorahaashillebrand/array-map-filter#readme"
 }

@@ -25,7 +25,13 @@ Expected OUTPUT for this sample:
 
 */
 
-function keepStarks(names) {
+const actors = ['Bran Stark', 'Cersei Lannister', 'Sandor Clegane', 'Arya Stark', 'Yara Greyjoy','Sansa Stark'];
+
+function keepStarks(actors) {
+    const result = actors.filter(function(names){
+      return names.endsWith('Stark')
+    })
+    return result;
 }
 
 // DON'T TOUCH THIS!
